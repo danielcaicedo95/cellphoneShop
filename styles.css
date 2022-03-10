@@ -1,0 +1,82 @@
+.logo{
+    height: 50px;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonCart{
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+}
+
+.buttonCart:hover{
+    background-color: rgb(77, 77, 77);
+    width: 40px;
+    height: 40px;
+}
+
+.imgCart{
+    width: 40px;
+    height: 40px;
+}
+
+
+.nav-link{
+    display: inline-block;
+    background-color: #292828;
+    color:#ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color: rgb(93, 92, 94);
+}
+
+.navBar{
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu{
+    background-color: #292828;
+    color:#ffffff;
+    padding: 10px 30px;
+    border: 1px solid #979797;
+    display: none;
+}
+
+@media (max-width: 600px){
+    .logo{
+        height: 30px;
+        position: relative;
+        top: 20px;
+    }
+    .navBar{
+        background-color: rgb(78, 77, 78);
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-link{
+        margin: 1px 1px;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .dissapear{
+        display: none;
+    }
+}
