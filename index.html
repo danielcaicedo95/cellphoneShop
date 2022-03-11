@@ -5,6 +5,9 @@
         <title>CellPhone Shop</title>
         <link rel="shortcut icon" href="./imagenes/favicon.png">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -17,14 +20,172 @@
             </section>
             <nav class="navBar">
                         <button class="menu" onclick="clickButton()">CellPhones</button>
-                        <a href="#" class="nav-link dissapear" >Samsung</a>
-                        <a href="#" class="nav-link dissapear">Iphone</a>
-                        <a href="#" class="nav-link dissapear">Motorola</a>
-                        <a href="#" class="nav-link dissapear">Xiaomi</a>
-                
+                        <button class="nav-link stylebutton dissapear" onclick="product()" value="Samsung1" >Samsung</button>
+                        <button class="nav-link stylebutton dissapear" onclick="product1()" value="iphone" >Iphone</button>
+                        <button class="nav-link stylebutton dissapear" onclick="product2()" value="motorola">Motorola</button>
+                        <button class="nav-link stylebutton dissapear" onclick="product3()" value="xiaomi">Xiaomi</button>
             </nav>
         </header>
+
         
+            <section class="container flex noView">
+                <div class="column">
+                    <h2>Samsung</h2>
+                    <img class="imgCell" src="imagenes/samsung1.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Samsung</h2>
+                    <img class="imgCell" src="imagenes/samsung1.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Samsung</h2>
+                    <img class="imgCell" src="imagenes/samsung1.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Samsung</h2>
+                    <img class="imgCell" src="imagenes/samsung1.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+            </section>
+
+            <section class="container flex noView1">
+                <div class="column">
+                    <h2>Iphone</h2>
+                    <img class="imgCell" src="imagenes/iphone.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Iphone</h2>
+                    <img class="imgCell" src="imagenes/iphone.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Iphone</h2>
+                    <img class="imgCell" src="imagenes/iphone.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Iphone</h2>
+                    <img class="imgCell" src="imagenes/iphone.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+            </section>
+        
+            <section class="container flex noView">
+                <div class="column">
+                    <h2>Motorola</h2>
+                    <img class="imgCell" src="imagenes/motorolag60.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Motorola</h2>
+                    <img class="imgCell" src="imagenes/motorolag60.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Motorola</h2>
+                    <img class="imgCell" src="imagenes/motorolag60.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Motorola</h2>
+                    <img class="imgCell" src="imagenes/motorolag60.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+            </section>
+        
+
+            <section class="container flex noView">
+                <div class="column">
+                    <h2>Xiaomi</h2>
+                    <img class="imgCell" src="imagenes/Xiaomiredminote10S.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Xiaomi</h2>
+                    <img class="imgCell" src="imagenes/Xiaomiredminote10S.png">
+                    <p class="price">$305  </p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Xiaomi</h2>
+                    <img class="imgCell" src="imagenes/Xiaomiredminote10S.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+                <div class="column">
+                    <h2>Xiaomi</h2>
+                    <img class="imgCell" src="imagenes/Xiaomiredminote10S.png">
+                    <p class="price">$305</p>
+                    <hr>
+                    <p>Camara: 36mgpx</p>
+                    <hr>
+                    <a href="#" class="buy">Comprar</a>
+                </div>
+            </section>
+
         <script src="index.js"></script>
     </body>
 </html>
+

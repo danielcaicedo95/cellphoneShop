@@ -1,5 +1,10 @@
+
 .logo{
-    height: 50px;
+    height: 45px;
+}
+.logo:hover{
+    border: 5px dashed #1C6EA4;
+    border-color: yellow;
 }
 
 .title{
@@ -39,6 +44,14 @@
     text-decoration: none;
 }
 
+.stylebutton{
+    background: rgb(59, 59, 59);
+    border: 0;
+    overflow: visible;
+    padding: 0;
+    padding:7px;
+}
+
 .nav-link:hover{
     background-color: rgb(93, 92, 94);
 }
@@ -58,6 +71,71 @@
     display: none;
 }
 
+/* .product img{
+    width: 300px;
+    cursor:pointer; 
+} */
+/* .product{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+} */
+
+.container{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgCell{
+    width: 175px;
+}
+
+.price{
+    font-size: 40px;
+    color:rgb(11, 117, 25);
+}
+
+.column{
+    background-color: beige;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px ;
+    padding: 67px; 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.buy{
+    display: block;
+    background: rgb(7, 100, 7) ;
+    padding:10px;
+    border-radius: 4px;
+    color: ivory;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.buy:hover{
+    background-color: rgb(29, 56, 2);
+}
+
+.noView{
+    display: none;
+}
+.noView1{
+    display: none;
+}
+
 @media (max-width: 600px){
     .logo{
         height: 30px;
@@ -72,11 +150,33 @@
     }
     .nav-link{
         margin: 1px 1px;
+
     }
     .menu{
         display: inline-block;
     }
     .dissapear{
         display: none;
+    }
+    
+}
+
+@media(max-width:1070px){
+    .column{
+        width: 45%;
+        margin-bottom: 22px;
+    }
+}
+
+@media(max-width: 600px){
+    .column{
+        width: 70%;
+        margin-bottom: 15px;
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    
     }
 }
