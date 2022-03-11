@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <meta name="description" content="Do you need high-tech equipment? We have high-end equipment with the best prices"/>
+        <meta name="keywords" content="cellpohones, high-end, iphone, motorola, samsung, xiaomi"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
         <title>CellPhone Shop</title>
         <link rel="shortcut icon" href="./imagenes/favicon.png">
         <link rel="stylesheet" type="text/css" href="styles.css">
@@ -21,14 +24,15 @@
             <nav class="navBar">
                         <button class="menu" onclick="clickButton()">CellPhones</button>
                         <button class="nav-link stylebutton dissapear" onclick="product()" value="Samsung1" >Samsung</button>
-                        <button class="nav-link stylebutton dissapear" onclick="product1()" value="iphone" >Iphone</button>
-                        <button class="nav-link stylebutton dissapear" onclick="product2()" value="motorola">Motorola</button>
-                        <button class="nav-link stylebutton dissapear" onclick="product3()" value="xiaomi">Xiaomi</button>
+                        <button class="nav-link stylebutton dissapear" onclick="product2()" value="iphone" >Iphone</button>
+                        <button class="nav-link stylebutton dissapear" onclick="product3()" value="motorola">Motorola</button>
+                        <button class="nav-link stylebutton dissapear" onclick="product4()" value="xiaomi">Xiaomi</button>
             </nav>
         </header>
 
         
-            <section class="container flex noView">
+
+            <section class="container flex view1">
                 <div class="column">
                     <h2>Samsung</h2>
                     <img class="imgCell" src="imagenes/samsung1.png">
@@ -36,7 +40,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Samsung</h2>
@@ -45,7 +49,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Samsung</h2>
@@ -54,7 +58,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Samsung</h2>
@@ -63,11 +67,11 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
             </section>
 
-            <section class="container flex noView1">
+            <section class="container container2 flex view2">
                 <div class="column">
                     <h2>Iphone</h2>
                     <img class="imgCell" src="imagenes/iphone.png">
@@ -75,7 +79,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Iphone</h2>
@@ -84,7 +88,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Iphone</h2>
@@ -93,7 +97,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Iphone</h2>
@@ -102,11 +106,11 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
             </section>
         
-            <section class="container flex noView">
+            <section class="container container3 flex view3">
                 <div class="column">
                     <h2>Motorola</h2>
                     <img class="imgCell" src="imagenes/motorolag60.png">
@@ -114,7 +118,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Motorola</h2>
@@ -123,7 +127,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Motorola</h2>
@@ -132,7 +136,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Motorola</h2>
@@ -141,12 +145,11 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
             </section>
         
-
-            <section class="container flex noView">
+            <section class="container container4 flex view4">
                 <div class="column">
                     <h2>Xiaomi</h2>
                     <img class="imgCell" src="imagenes/Xiaomiredminote10S.png">
@@ -154,7 +157,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Xiaomi</h2>
@@ -163,7 +166,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Xiaomi</h2>
@@ -172,7 +175,7 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
                 <div class="column">
                     <h2>Xiaomi</h2>
@@ -181,9 +184,15 @@
                     <hr>
                     <p>Camara: 36mgpx</p>
                     <hr>
-                    <a href="#" class="buy">Comprar</a>
+                    <button class="buy" onclick="buttonBuy()">Comprar</button>
                 </div>
             </section>
+        <div class="homePage">
+            <h1>welcome to the best cell phone store!</h1>
+            <img src="imagenes/logo_small.png">
+        </div>
+    
+           
 
         <script src="index.js"></script>
     </body>

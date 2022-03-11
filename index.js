@@ -9,47 +9,34 @@ function clickButton(){
 };
 
 function product(){
-    let navigation = document.querySelector(".container");
-    navigation.classList.toggle("noView");
-   };
-   
-function product1(){
-    let navigation = document.querySelector(".container");
-    navigation.classList.toggle("noView1");
+    let navigation= document.querySelector(".container");
+    navigation.classList.toggle("view1")
    };
 
-/* function product(){
-    let navigation = document.querySelector(".container");
-    navigation.classList.toggle("noView2");
+function product2(){
+    let navigation= document.querySelector(".container2");
+    navigation.classList.toggle("view2")
    };
 
-function product(){
-    let navigation = document.querySelector(".container");
-    navigation.classList.toggle("noView3");
-   }; */
+function product3(){
+    let navigation= document.querySelector(".container3");
+    navigation.classList.toggle("view3")
+   };
+
+function product4(){
+    let navigation= document.querySelector(".container4");
+    navigation.classList.toggle("view4")
+   };
 
 
-
-
-
-
-
-
-/* let priceRandom = document.querySelectorAll(".priceRandom")
-for(price of priceRandom){
-    let num = Math.round(Math.random()*10 + 300);
-    document.getElementById("price").innerHTML = `$ ${num}`; 
+function buttonBuy(){
+    let confirm = window.confirm("Do you want to buy this cell phone?");
+    if(confirm==true){
+        alert("Added to shopping cart")
+    }
 }
- */
 
 
-    
 
- /* let navigation = document.querySelector(".nav-link");
-    let text = navigation.value;
-    console.log(navigation)
-    let images  =[];
 
-    for(i=0; i<8; i++){
-        images[i] = `<img title="${text}" src="imagenes/${text}.png">`
-    }; */
+
